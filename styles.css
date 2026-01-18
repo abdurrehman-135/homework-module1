@@ -4,6 +4,7 @@
      min-height: 400px;
      padding-top: 3em;
  }
+ 
 
  #home header {
      background: no-repeat lightgrey url(images/cliff_ocean.jpg);
@@ -18,6 +19,10 @@
  #contact header {
      background: no-repeat lightgrey url(images/cliff_rock.jpg);
      background-size: 1500px;
+ }
+
+ .head-h{
+    font-c
  }
 
  /* Navigation */
