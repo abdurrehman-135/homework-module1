@@ -76,7 +76,7 @@
      padding: 3em 5em;
  }
 
- main h2 {
+ main h1 {
      font-family: Arial, Helvetica, sans-serif;
      color: #9ed034;
  }
@@ -207,3 +207,118 @@
         font-weight: bold;
         background: #BDE1FF;
     }
+
+
+
+/* Contact Page */
+  
+
+
+.contactinfo {
+    margin: 2px;
+}
+
+.contactinfo div {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.contactinfo span:first-child {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Form Container Styling */
+form {
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    text-align: left; /* Align form content to the left */
+}
+
+legend {
+    color: #4977D1;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Input Fields Styling */
+.textbox label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.textbox input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Radio Buttons */
+.radios {
+    margin-bottom: 15px;
+}
+
+.radios label {
+    font-weight: normal; /* The question label */
+    display: block;
+    margin-bottom: 5px;
+}
+
+.radios input {
+    margin-right: 5px;
+}
+
+/* Select Menu */
+.selectmenu label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.selectmenu select {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Text Area - Using resize property */
+.commentbox label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.commentbox textarea {
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none; /* Prevents resizing */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+/* Button Styling - Using Contextual selector form .button */
+form .button {
+    text-align: center;
+}
+
+form .button input {
+    background-color: #4977D1; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 20%;
+}
