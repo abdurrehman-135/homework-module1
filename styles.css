@@ -20,9 +20,7 @@ header {
   background-size: 1500px;
 }
 
-.head-h {
-  font-color: #fff;
-}
+
 
 /* Navigation */
 .main-header {
@@ -337,15 +335,13 @@ form .button input {
   );
 }
 
-#timeofday > span {
-      color: #3a3a3a;
-      font-size: 0.9rem;
-
+#timeofday span:first-child {
+  color: #3a3a3a;
+  font-size: 0.9rem;
 }
 
-#clock {
+#clock{
   color: #125688; /* primary clock color */
-  font-size: 3rem;
   font-weight: 700;
   letter-spacing: 1px;
 }
