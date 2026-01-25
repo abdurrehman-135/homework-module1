@@ -1,329 +1,324 @@
- /* header  */
- header {
-     width: 100%;
-     min-height: 400px;
-     padding-top: 3em;
- }
- 
+/* header  */
+header {
+  width: 100%;
+  min-height: 400px;
+  padding-top: 3em;
+}
 
- #home header {
-     background: no-repeat lightgrey url(images/cliff_ocean.jpg);
-     background-size: 1500px;
- }
+#home header {
+  background: no-repeat lightgrey url(images/cliff_ocean.jpg);
+  background-size: 1500px;
+}
 
- #activities header {
-     background: no-repeat lightgrey url(images/runfly.jpg);
-     background-size: 1500px;
- }
+#activities header {
+  background: no-repeat lightgrey url(images/runfly.jpg);
+  background-size: 1500px;
+}
 
- #contact header {
-     background: no-repeat lightgrey url(images/cliff_rock.jpg);
-     background-size: 1500px;
- }
+#contact header {
+  background: no-repeat lightgrey url(images/cliff_rock.jpg);
+  background-size: 1500px;
+}
 
- .head-h{
-    font-c
- }
+.head-h {
+  font-color: #fff;
+}
 
- /* Navigation */
- .main-header {
-     background-color: rgba(255, 255, 255, 0.8);
-     width: 700px;
-     margin: 2em auto 0 auto;
-     min-height: 100px;
-     height: 100px;
- }
+/* Navigation */
+.main-header {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 700px;
+  margin: 2em auto 0 auto;
+  min-height: 100px;
+  height: 100px;
+}
 
- .main-header .logo img {
-     width: 100px;
-     height: 100px;
-     margin: 0 2em 0 0;
-     float: left;
- }
+.main-header .logo img {
+  width: 100px;
+  height: 100px;
+  margin: 0 2em 0 0;
+  float: left;
+}
 
- .main-menu {
-     margin-left: 227px;
-     font-weight: 400;
- }
+.main-menu {
+  margin-left: 227px;
+  font-weight: 400;
+}
 
- .main-menu ul li {
-     list-style-type: none;
-     display: inline-block;
-     float: left;
-     padding-left: 25px;
-     padding-right: 25px;
-     border-left: 1px solid rgba(202, 204, 202, 0.6);
-     line-height: 100px;
-     text-transform: uppercase;
-     font-size: 14px;
- }
+.main-menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-left: 1px solid rgba(202, 204, 202, 0.6);
+  line-height: 100px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
 
- .main-menu ul li a {
-     text-decoration: none;
-     color: #888;
- }
+.main-menu ul li a {
+  text-decoration: none;
+  color: #888;
+}
 
- .main-menu ul li a:hover {
-     color: #9ed034;
- }
+.main-menu ul li a:hover {
+  color: #9ed034;
+}
 
- .main-menu ul li.active {
-     background-color: #9ed034;
-     border: none;
- }
+.main-menu ul li.active {
+  background-color: #9ed034;
+  border: none;
+}
 
- .main-menu ul li.active a {
-     color: #fff;
- }
+.main-menu ul li.active a {
+  color: #fff;
+}
 
- /* Main */
- main {
-     padding: 3em 5em;
- }
+/* Main */
+main {
+  padding: 3em 5em;
+}
 
- main h1 {
-     font-family: Arial, Helvetica, sans-serif;
-     color: #9ed034;
- }
+main h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9ed034;
+}
 
- /* section */
- section {
-     width: 100%;
-     background-color: #4288c3;
- }
+/* section */
+section {
+  width: 100%;
+  background-color: #4288c3;
+}
 
- section #partners {
-     width: 80%;
-     padding: 2em 0 2em 0;
-     margin: 0 auto;
-     text-align: center;
- }
+section #partners {
+  width: 80%;
+  padding: 2em 0 2em 0;
+  margin: 0 auto;
+  text-align: center;
+}
 
- section #partners .partner {
-     display: inline-block;
-     margin: 0 0.75em;
-     padding: 1.3em 1.5em;
-     background-color: #fff;
-     border-radius: 50%;
- }
+section #partners .partner {
+  display: inline-block;
+  margin: 0 0.75em;
+  padding: 1.3em 1.5em;
+  background-color: #fff;
+  border-radius: 50%;
+}
 
- section #partners .partner img {
-     width: 90px;
-     height: 90px;
- }
+section #partners .partner img {
+  width: 90px;
+  height: 90px;
+}
 
- /* footer */
- footer {
-     width: 100%;
-     height: 155px;
-     padding-bottom: 1em;
-     background-color: #ecfab8;
- }
+/* footer */
+footer {
+  width: 100%;
+  height: 155px;
+  padding-bottom: 1em;
+  background-color: #ecfab8;
+}
 
- footer #nondisclaimer .copy {
-     padding: 3.5em 3.5em 3.5em 13em;
-     float: left;
-     font-size: 0.9em;
- }
+footer #nondisclaimer .copy {
+  padding: 3.5em 3.5em 3.5em 13em;
+  float: left;
+  font-size: 0.9em;
+}
 
- footer #nondisclaimer .social {
-     padding: 2.5em;
-     margin-right: 9.25em;
-     float: right;
- }
+footer #nondisclaimer .social {
+  padding: 2.5em;
+  margin-right: 9.25em;
+  float: right;
+}
 
- footer #disclaimer {
-     clear: both;
- }
+footer #disclaimer {
+  clear: both;
+}
 
- footer #disclaimer p {
-     font-size: 0.85em;
-     text-align: center;
- }
+footer #disclaimer p {
+  font-size: 0.85em;
+  text-align: center;
+}
 
- footer #nondisclaimer .social .fa {
-     padding: 15px;
-     font-size: 15px;
-     width: 15px;
-     text-align: center;
-     text-decoration: none;
-     margin: 0 4px;
-     border-radius: 50%;
- }
+footer #nondisclaimer .social .fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 4px;
+  border-radius: 50%;
+}
 
- footer #nondisclaimer .social .fa:hover {
-     opacity: 0.7;
- }
+footer #nondisclaimer .social .fa:hover {
+  opacity: 0.7;
+}
 
- footer #nondisclaimer .social .fa-facebook {
-     background: #3B5998;
-     color: white;
- }
+footer #nondisclaimer .social .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
 
- footer #nondisclaimer .social .fa-instagram {
-     background: #125688;
-     color: white;
- }
+footer #nondisclaimer .social .fa-instagram {
+  background: #125688;
+  color: white;
+}
 
- footer #nondisclaimer .social .fa-twitter {
-     background: #55ACEE;
-     color: white;
- }
+footer #nondisclaimer .social .fa-twitter {
+  background: #55acee;
+  color: white;
+}
 
+/* Activities */
+table {
+  width: 100%;
+  margin: 4em auto 0 auto;
+}
 
- /* Activities */
- table {
-     width: 100%;
-     margin: 4em auto 0 auto;
- }
+caption {
+  background: #852b1b;
+  height: 40px;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 1em;
+}
 
- caption {
-     background: #852B1B;
-     height: 40px;
-     color: #fff;
-     font-size: 1.3em;
-     font-weight: bold;
-     padding-top: 1em;
- }
+thead {
+  background: #bde1ff;
+}
 
- thead {
-     background: #BDE1FF;
- }
+tbody {
+  background: #eeffe6;
+  text-align: center;
+}
 
- tbody {
-     background: #EEFFE6;
-     text-align: center;
- }
-
- th,
- td {
-     width: 225px;
-     padding: 1em;
-     vertical-align: middle;
-     border: solid;
- }
- th:first-child{
-    width: 125px;
-    height:50px;
-    background: #4977D1;
-    color: #fff;
- }
-    td:first-child{
-        font-weight: bold;
-        background: #BDE1FF;
-    }
-
-
+th,
+td {
+  width: 225px;
+  padding: 1em;
+  vertical-align: middle;
+  border: solid;
+}
+th:first-child {
+  width: 125px;
+  height: 50px;
+  background: #4977d1;
+  color: #fff;
+}
+td:first-child {
+  font-weight: bold;
+  background: #bde1ff;
+}
 
 /* Contact Page */
-  
-
 
 .contactinfo {
-    margin: 2px;
+  margin: 2px;
 }
 
 .contactinfo div {
-    margin-bottom: 10px;
-    font-size: 1em;
+  margin-bottom: 10px;
+  font-size: 1em;
 }
 
 .contactinfo span:first-child {
-    font-weight: bold;
-    text-transform: uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Form Container Styling */
 form {
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    text-align: left; /* Align form content to the left */
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  text-align: left; /* Align form content to the left */
 }
 
 legend {
-    color: #4977D1;
-    font-size: 1em;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 15px;
+  color: #4977d1;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 /* Input Fields Styling */
 .textbox label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .textbox input {
-    width: 60%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
 /* Radio Buttons */
 .radios {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .radios label {
-    font-weight: normal; /* The question label */
-    display: block;
-    margin-bottom: 5px;
+  font-weight: normal; /* The question label */
+  display: block;
+  margin-bottom: 5px;
 }
 
 .radios input {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 /* Select Menu */
 .selectmenu label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .selectmenu select {
-    width: 60%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 /* Text Area - Using resize property */
 .commentbox label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .commentbox textarea {
-    width: 60%;
-    height: 100px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    resize: none; /* Prevents resizing */
-    box-sizing: border-box;
-    margin-bottom: 20px;
+  width: 60%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: none; /* Prevents resizing */
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 /* Button Styling - Using Contextual selector form .button */
 form .button {
-    text-align: center;
+  text-align: center;
 }
 
 form .button input {
-    background-color: #4977D1; /* Blue button */
-    color: #fff;
-    border: none;
-    padding: 12px 40px;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-    width: 20%;
+  background-color: #4977d1; /* Blue button */
+  color: #fff;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 20%;
 }
+
