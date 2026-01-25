@@ -322,3 +322,30 @@ form .button input {
   width: 20%;
 }
 
+#timeofday {
+  margin: 0;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* gradient background: 0deg, rgba(251,215,139,1) -> rgba(118,213,245,1) */
+  background: linear-gradient(
+    0deg,
+    rgba(251, 215, 139, 1) 0%,
+    rgba(118, 213, 245, 1) 100%
+  );
+}
+
+#timeofday > span {
+      color: #3a3a3a;
+      font-size: 0.9rem;
+
+}
+
+#clock {
+  color: #125688; /* primary clock color */
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
