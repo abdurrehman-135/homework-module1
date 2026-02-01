@@ -307,7 +307,7 @@ form .button {
 }
 
 form .button input {
-  background-color: #4977d1; /* Blue button */
+  /* background-color: #4977d1; Blue button */
   color: #fff;
   border: none;
   padding: 12px 40px;
@@ -402,4 +402,12 @@ form .button input {
   color: #125688; /* primary clock color */
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+/* Codes */
+
+#codes{
+  background-color: #8b8989;
+  display:inline-block;
+  padding: 1em;
 }
