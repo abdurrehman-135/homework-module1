@@ -13,7 +13,7 @@
 
 </head>
 
-<body id="contact">
+<body id="contact" onload="disableButton(true)">
     <div class="container">
         <header>
 
@@ -89,12 +89,12 @@
                     </div>
                     <!-- Random Codes -->
                      <div id="randomcode">
-                        <input type="text" name="randomcode" placeholder="Enter character">
+                        <input type="text" name="randomcode" placeholder="Enter character" id="codeentered">
                         <p id="codes"></p>
                      </div>
 
                     <div class="button">
-                        <input type="submit" value="Inquire">
+                        <input type="submit" value="Inquire" id="submit">
                     </div>
                 </fieldset>
             </form>
